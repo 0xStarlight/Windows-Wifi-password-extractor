@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="Windows wifi Password extractor.gif" alt="animated" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"/>
+  <img src="https://ci.appveyor.com/api/projects/status/pjxh5g91jpbh7t84?svg=true"/>
+  <img src="https://img.shields.io/github/license/onyx-storm/Windows-Wifi-password-extractor"/>
+</p>
+
 ## Windows-Wifi-password-extractor
 This python program will display all SSID usernames and SSID passwords you once connected to with your laptop
 
