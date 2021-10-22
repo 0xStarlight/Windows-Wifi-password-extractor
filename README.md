@@ -9,7 +9,7 @@
 </p>
 
 ## Windows-Wifi-password-extractor
-This python program will display all SSID usernames and SSID passwords you once connected to with your laptop
+This python program will display all SSID usernames and SSID passwords you once connected to your laptop
 
 
 ## How to run the program 
