@@ -21,7 +21,11 @@ for i in range(len(lines)):
     if len(check) == 0:
         data2 += '\n'
     if len(check) == 31:
-        data2+= '\n'
+        for flag in range(31):
+            if (flag != " "):
+                data2 += check
+        if (flag == 30):
+            data2+= '\n'
     else:
         data2 += check
     
