@@ -29,7 +29,7 @@ SSID_pass = []
 
 
 for i in lines2:
-    SSID_pass.append(i[i.find(":")+2 ::])
+    SSID_pass.append(i[i.find(":")+1 ::])
 
 
 table = BeautifulTable()
