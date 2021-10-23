@@ -4,6 +4,8 @@ ret = os.popen('netsh wlan show profiles name=* key=clear | findstr "name"')
 data = ret.read()
 lines = data.splitlines()
 
+
+
 SSID_names = []
 
 
@@ -19,11 +21,18 @@ for i in range(len(lines)):
     if len(check) == 0:
         data2 += '\n'
     if len(check) == 31:
-        data2+= '\n'
+        for flag in range(31):
+            if (flag != " "):
+                data2 += check
+        if (flag == 30):
+            data2+= '\n'
     else:
         data2 += check
     
 lines2 = data2.splitlines()
+
+#print(data2)
+#print(lines2)
 
 SSID_pass = []
 
